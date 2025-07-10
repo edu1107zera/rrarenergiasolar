@@ -1,38 +1,112 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links | RRAR Energia Solar</title>
-    <link rel="stylesheet" href="assets/css/links.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RRAR Energia Solar</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-    <div class="container">
-        <div class="container-top">
-            <img src="assets/img/links/logo.png" alt="LOGO RRAR">
-            <h1>RRAR Energia Solar</h1>
-            <p>Atendemos São Carlos e região!</p>
-        </div>
-        <div class="container-bottom">
-            <div class="link-container">
-                <div class="link-item">
-                    <img src="assets/img/links/logo.png" alt="">
-                    <p>Fale com a gente</p>
-                    <p></p>
-                </div>
-                <div class="link-item">
-                    <img src="assets/img/links/logo.png" alt="">
-                    <p>Fale com a gente</p>
-                    <p></p>
-                </div>
-                <div class="link-item">
-                    <img src="assets/img/links/logo.png" alt="">
-                    <p>Fale com a gente</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url(https://images.unsplash.com/photo-1625301840055-7c1b7198cfc0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.link-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  transition: transform 0.2s ease;
+  font-weight: bold;
+  height: 50px;
+}
+
+.link-button:hover {
+  transform: scale(1.03);
+}
+
+.link-button .icon {
+  position: absolute;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.link-button .text {
+  width: 100%;
+  text-align: center;
+}
+
 
     
+</style>
+
+<body>
+  <div class="container">
+    <img src="https://ugc.production.linktr.ee/e645d5da-cc9a-48d1-9644-21ec0ba53d8c_logo-insta-2.jpeg?io=true&size=avatar-v3_0" alt="Logo RRAR" class="logo" />
+    <h1>RRAR Energia Solar</h1>
+    <p class="subtitle">São Carlos e região</p>
+
+    <a href="https://wa.me/5599999999999" class="link-button">
+    <img src="https://ugc.production.linktr.ee/3fdbf873-75ee-4213-9e47-f51ed58452ad_zap.gif?io=true&size=thumbnail-stack-v1_0" alt="WhatsApp" class="icon"/>
+    <span class="text">Fale com a gente</span>
+    </a>
+
+    <a href="https://instagram.com/rrarenergiasolar" class="link-button">
+    <img src="https://ugc.production.linktr.ee/a3efd0b1-cc5d-44f8-aca8-c31a191d135d_insta.gif?io=true&size=thumbnail-stack-v1_0" alt="Instagram" class="icon"/>
+    <span class="text">Instagram</span>
+    </a>
+
+    <a href="https://rrarenergiasolar.com.br" class="link-button">
+    <img src="https://ugc.production.linktr.ee/8132ed64-b6cb-404b-a626-ff2efe15d616_Ip1phcU2g65.gif?io=true&size=thumbnail-stack-v1_0" alt="Website" class="icon"/>
+    <span class="text">Site RRAR</span>
+    </a>
+
+
+
+    
+  </div>
 </body>
 </html>
